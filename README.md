@@ -55,5 +55,5 @@ autoUpdate.download(new OnDownloadResultListener(){
     }
     });
 ```    
-具体弹框还是需要在通知栏显示,由你自己进行控制   
+### 具体弹框还是需要在通知栏显示,由你自己进行控制   (参考app中的MainActivity中的通知进行使用,弹框太简单不做示范)
 
