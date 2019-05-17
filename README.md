@@ -12,7 +12,7 @@
 ```    
 ### 2. 在module下的build.gradle中添加
 ```Gradle
-  implementation 'com.github.chengamin:autoupdate:3.0'
+  implementation 'com.github.chengamin:autoupdate:1.0'
   implementation "com.squareup.okhttp3:okhttp:3.14.1"
   以及
   compileOptions {
