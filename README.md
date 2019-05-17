@@ -17,7 +17,7 @@
     }
 3. 结束了,开始用吧,哈哈!    
 使用方式:
-1.  AutoUpdateOption autoUpdateOption = new AutoUpdateOption.Builder()
+1.  autoUpdateOption = new AutoUpdateOption.Builder()
                 .apkName("fg.apk")
                 .downLoadUrl("http://218.26.67.174:9909/App/fg.apk")
                 .with(this)
@@ -26,7 +26,7 @@
                 .smallIcon(R.mipmap.ic_launcher)
                 .showType(AutoUpdateOption.AutoDownloadShowType.BACKGROUND)
                 .build();
-    AutoUpdate autoUpdate = new AutoUpdate(autoUpdateOption);
+        autoUpdate = new AutoUpdate(autoUpdateOption);
     autoUpdate.download(new OnDownloadResultListener(){
          @Override
             public void onStartDownload() {
