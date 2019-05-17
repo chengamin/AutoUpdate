@@ -17,7 +17,9 @@
     }
 3. 结束了,开始用吧,哈哈!    
 使用方式:
-1.  autoUpdateOption = new AutoUpdateOption.Builder()
+1.  
+...
+autoUpdateOption = new AutoUpdateOption.Builder()
                 .apkName("fg.apk")
                 .downLoadUrl("http://218.26.67.174:9909/App/fg.apk")
                 .with(this)
@@ -48,4 +50,5 @@
                 //下载出错
             }
     });
+...    
 2. 具体弹框还是需要在通知栏显示,由你自己进行控制    
